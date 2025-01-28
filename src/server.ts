@@ -10,7 +10,7 @@ const startServer = async () => {
         await sequelize.sync(); // Sync models to DB
         app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
     } catch (error) {
-        console.error("Unable to start the server:", error);
+        console.error("Unable to start the server cry:", error);
     }
 };
 
